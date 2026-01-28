@@ -33,16 +33,8 @@ python run_taq_icml.py --run_type demo
 TAQ_ICML/
 ├── run_taq_icml.py           # Main Python script (CLI)
 ├── taq_icml.ipynb            # Standalone notebook runner
-├── commands_copy_paste.ipynb # Generate copy-paste commands
-├── results_report.ipynb      # View results & visualizations
-├── visualizations_motivation.ipynb # Method motivation plots
-├── setup_env.ipynb           # Environment setup & verification
-├── print_results.py          # CLI results printer
-├── print_commands.py         # CLI command generator
 ├── requirements.txt          # Python dependencies
-├── .gitignore               # Git ignore rules
 ├── README.md                # This file
-└── env_setup.md             # Detailed setup instructions
 ```
 
 ---
