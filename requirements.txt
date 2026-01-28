@@ -1,0 +1,29 @@
+# TAQ-ICML Requirements
+# Install: pip install -r requirements.txt
+
+# Core ML
+torch>=2.0.0
+transformers>=4.35.0
+datasets>=2.14.0
+accelerate>=0.24.0
+
+# Numerical
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# Progress & Utilities
+tqdm>=4.65.0
+
+# Tokenizers
+sentencepiece>=0.1.99
+tokenizers>=0.14.0
+
+# Model saving
+safetensors>=0.4.0
+
+# HuggingFace Hub
+huggingface-hub>=0.19.0
