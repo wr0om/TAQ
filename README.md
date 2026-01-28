@@ -100,32 +100,6 @@ Results are saved to:
 - `saved_models/` - Cached bit allocations (meta.json) for each (model, method, dataset, run_type)
 - `datasets_local/` - Downloaded dataset cache
 
-To view results:
-```bash
-# CLI
-python print_results.py
-
-# Or open results_report.ipynb in Jupyter
-```
-
----
-
-## Cluster Usage (SLURM)
-
-For parallel execution on a cluster:
-
-1. Open `commands_copy_paste.ipynb`
-2. Run Cell 3 (Full Run) to get 45 tmux+srun commands
-3. Copy-paste each command to start a background job
-
-Each command:
-- Creates a tmux session named `{model}_{method}_{dataset}_full`
-- `cd` to work directory
-- Activates conda environment
-- Runs `srun` with GPU allocation
-
----
-
 ## Provenance
 
 Each cached model includes `meta.json` with:
