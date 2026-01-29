@@ -19,9 +19,6 @@ Usage:
     
     # Specific combinations
     python taq_icml.py --model "meta-llama/Llama-3.1-8B-Instruct" --datasets trivia_qa --methods TAQ TAQO
-    
-    # SLURM
-    srun -c 4 -A tdk -p tdk --gres=gpu:1 --pty python taq_icml.py --mode full --model "..."
 """
 
 import os
