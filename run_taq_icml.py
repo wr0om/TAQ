@@ -18,8 +18,6 @@ Usage:
     python run_taq_icml.py --run_type full
     python run_taq_icml.py --run_type full --model "meta-llama/Llama-3.1-8B-Instruct" --method TAQ --dataset trivia_qa
 
-SLURM:
-    srun -c 4 -A tdk -p tdk --gres=gpu:1 --pty python run_taq_icml.py --run_type full
 """
 
 import os
